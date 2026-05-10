@@ -1,0 +1,143 @@
+
+body{
+  min-height: 100vh;
+  background: linear-gradient(45deg, #ff9a9a, #fad0c4, #a1c4fd, #c2e9fb);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+
+}
+.h1{
+  align-items: center;
+  width: 100%;
+  font-weight: 900;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  text-shadow: #ff9a9a;
+  align-self: center;
+  text-align: center;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  margin: 0;
+  background-image: url(mom3.jpg);
+  background-clip: text;
+  -webkit-background-clip: text;
+  filter: drop-shadow(0 10px 20px rgba(0,0,0,.2));
+  color: transparent;
+}
+
+.idea{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+} 
+
+.k{
+  height: 400px;
+  display: flex;
+  border-radius: 9px;
+  border: 2px solid wheat;
+  margin: 10px;
+  transition: 0.2s ease-in;
+
+}
+.k:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 10px 20px 15px black;
+}
+.text-image{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+}
+.pi{
+  height: 400px;
+  width: 240px;
+  display: flex;
+  transition: 0.2s ease-in;
+  border-radius: 9px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.pi:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 10px 20px 15px black;
+}
+.pp{
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-size: larger;
+  font-family: 'Arial', sans-serif;
+
+}
+.hhh{
+  letter-spacing: 4px;
+  font-size: 50px;
+  opacity: 0.8;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 1000;
+  margin: 20px 0;
+}
+.ppp{
+   letter-spacing: 1px;
+   margin: 20px;
+   margin-bottom: 200px;
+  line-height: 30px;
+  font-size: larger;
+  font-family: arial, sans-serif;
+}
+img{
+  border-radius: 10px;
+}
+.div3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+
+}
+.pppp{
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-size: larger;
+  font-family: sans-serif;
+  max-width: 400px;
+}
+.last{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 50px;
+}
+.p{
+  text-align: center;
+    letter-spacing: 1px;
+   margin: 20px;
+   margin-bottom: 30px;
+  line-height: 80px;
+  font-size: 40px;
+  font-family: arial, sans-serif;
+}
+.fa {
+  border: 2px solid wheat;
+  transition: 0.2s ease;
+}
+.fa:hover {
+   box-shadow: 0px 30px 60px rgba(0,0,0,.7);
+   cursor: pointer;
+   transform: scale(1.05);
+}
+h2{
+  letter-soacing: 4px;
+  /* font-size: 0.9rem; */
+  opacity: 0.8;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
